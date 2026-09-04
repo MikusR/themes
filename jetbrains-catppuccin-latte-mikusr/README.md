@@ -1,29 +1,29 @@
-# Catppuccin Latte Warm for JetBrains
+# Catppuccin Latte Warm (Flexoki-inspired) for JetBrains
 
-A customized, warm variant of the [Catppuccin Latte](https://github.com/catppuccin/jetbrains) theme for JetBrains IDEs (IntelliJ IDEA, WebStorm, PyCharm, CLion, GoLand, Android Studio, RustRover, etc.).
+A customized warm variant of the [Catppuccin Latte](https://github.com/catppuccin/jetbrains) theme for JetBrains IDEs (IntelliJ IDEA, WebStorm, PyCharm, CLion, GoLand, Android Studio, RustRover, etc.).
 
-Original Catppuccin Latte uses cool blue/slate undertones ($R < G < B$). This theme shifts the background and neutral palette to warm ivory, cream, and parchment tones ($R > G > B$), offering a softer, warm paper-like coding experience while keeping Catppuccin's pastel syntax highlights.
+Original Catppuccin Latte uses cool blue/slate undertones (`#eff1f5`, `#e6e9ef`, `#dce0e8`). This theme replaces them with the warm paper and neutral tones from [Flexoki Light](https://stephango.com/flexoki) by Steph Ango (`#FFFCF0`, `#F2F0E5`, `#E6E4D9`), creating an analog ink-on-paper feel with Catppuccin's soothing pastel syntax highlighting.
 
 ## Palette Comparison
 
-| Token | Original Cool Blue | Warm Latte (`mikusr`) | Role |
-| :--- | :--- | :--- | :--- |
-| `base` | `#eff1f5` (239, 241, 245) | **`#fbf5e6`** (251, 245, 230) | Editor & window background |
-| `mantle` | `#e6e9ef` (230, 233, 239) | **`#f4eedf`** (244, 238, 223) | Tool windows, sidebars, panels |
-| `crust` | `#dce0e8` (220, 224, 232) | **`#ebdcc9`** (235, 220, 201) | Status bar, inactive tabs, borders |
-| `surface0` | `#ccd0da` (204, 208, 218) | **`#dfd5c2`** (223, 213, 194) | Separators, scrollbars |
-| `surface1` | `#bcc0cc` (188, 192, 204) | **`#d1c5b0`** (209, 197, 176) | Text input background |
-| `surface2` | `#acb0be` (172, 176, 190) | **`#c2b59e`** (194, 181, 158) | Selection background base |
-| `overlay0` | `#9ca0b0` (156, 160, 176) | **`#b0a28b`** (176, 162, 139) | Line numbers, gutter icons |
-| `overlay1` | `#8c8fa1` (140, 143, 161) | **`#9c8e77`** (156, 142, 119) | Code comments |
-| `overlay2` | `#7c7f93` (124, 127, 147) | **`#887a64`** (136, 122, 100) | Secondary labels |
-| `subtext0` | `#6c6f85` (108, 111, 133) | **`#746652`** (116, 102, 82) | Secondary UI text |
-| `subtext1` | `#5c5f77` (92, 95, 119) | **`#615441`** (97, 84, 65) | Secondary dark UI text |
-| `text` | `#4c4f69` (76, 79, 105) | **`#4a4035`** (74, 64, 53) | Primary typography (dark espresso) |
+| Token | Original Cool Blue | Flexoki Light Paper (`mikusr`) | Flexoki Token | Role |
+| :--- | :--- | :--- | :--- | :--- |
+| `base` | `#eff1f5` | **`#fffcf0`** | `paper` (`bg`) | Editor & window background |
+| `mantle` | `#e6e9ef` | **`#f2f0e5`** | `base-50` (`bg-2`) | Tool windows, sidebars, panels |
+| `crust` | `#dce0e8` | **`#e6e4d9`** | `base-100` (`ui`) | Status bar, inactive tabs, borders |
+| `surface0` | `#ccd0da` | **`#dad8ce`** | `base-150` (`ui-2`) | Separators, scrollbars |
+| `surface1` | `#bcc0cc` | **`#cecdc3`** | `base-200` (`ui-3`) | Text input background |
+| `surface2` | `#acb0be` | **`#b7b5ac`** | `base-300` (`tx-3`) | Selection background base |
+| `overlay0` | `#9ca0b0` | **`#9f9d96`** | `base-500` | Line numbers, gutter icons |
+| `overlay1` | `#8c8fa1` | **`#878580`** | `base-500` | Code comments |
+| `overlay2` | `#7c7f93` | **`#6f6e69`** | `base-600` (`tx-2`) | Secondary labels |
+| `subtext0` | `#6c6f85` | **`#575653`** | `base-700` | Secondary UI text |
+| `subtext1` | `#5c5f77` | **`#403e3c`** | `base-800` | Secondary dark UI text |
+| `text` | `#4c4f69` | **`#100f0f`** | `black` (`tx`) | Primary typography (deep ink) |
 
 ## Quick Installation
 
-1. Run the build script to generate the plugin package:
+1. Build or re-package the plugin:
    ```bash
    ./build-plugin.sh
    ```
@@ -41,7 +41,5 @@ Original Catppuccin Latte uses cool blue/slate undertones ($R < G < B$). This th
 
 Colors are configured in `palette.json`. You can modify any hex values and regenerate the theme templates using:
 ```bash
-whiskers --color-overrides palette.json templates/ui.theme.tera
-whiskers --color-overrides palette.json templates/editor.tera
+./build-plugin.sh
 ```
-Or simply run `./build-plugin.sh` which automatically regenerates and re-packages the plugin.
