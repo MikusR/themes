@@ -1,0 +1,20 @@
+# Build artifacts
+build/
+dist/
+.gradle/
+*.jar
+!gradle/wrapper/*.jar
+*.class
+
+# JetBrains / IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*~
+*.swp
