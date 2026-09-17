@@ -1,0 +1,38 @@
+{
+  "name": "vscode-flexoki-light-mikusr",
+  "displayName": "Flexoki Light",
+  "description": "Flexoki Light inky color scheme for Visual Studio Code, extracted from one-hunter.",
+  "version": "1.0.0",
+  "publisher": "mikusr",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "flexoki",
+    "flexoki-light",
+    "light-theme",
+    "color-theme",
+    "warm-theme"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Railly/one-hunter-vscode"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flexoki Light",
+        "uiTheme": "vs",
+        "path": "./themes/Flexoki-Light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-dependencies"
+  },
+  "license": "MIT"
+}

@@ -1,6 +1,8 @@
 # Build artifacts
 build/
 dist/
+*.vsix
+node_modules/
 .gradle/
 *.jar
 !gradle/wrapper/*.jar
