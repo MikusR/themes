@@ -1,0 +1,16 @@
+{
+  "latte": {
+    "base": "fffcf0",
+    "mantle": "f2f0e5",
+    "crust": "e6e4d9",
+    "surface0": "dad8ce",
+    "surface1": "cecdc3",
+    "surface2": "b7b5ac",
+    "overlay0": "9f9d96",
+    "overlay1": "878580",
+    "overlay2": "6f6e69",
+    "subtext0": "575653",
+    "subtext1": "403e3c",
+    "text": "100f0f"
+  }
+}

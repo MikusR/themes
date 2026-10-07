@@ -9,6 +9,12 @@ node_modules/
 !**/gradle/wrapper/*.jar
 *.class
 
+# Prebuilt Flexppuccin artifacts are committed
+!jetbrains-flexppuccin/dist/
+!jetbrains-flexppuccin/dist/Flexppuccin.jar
+!vscode-flexppuccin/dist/
+!vscode-flexppuccin/dist/*.vsix
+
 # JetBrains / IDE files
 .idea/
 *.iml

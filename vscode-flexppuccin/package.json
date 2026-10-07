@@ -1,0 +1,44 @@
+{
+  "name": "flexppuccin",
+  "displayName": "Flexppuccin",
+  "description": "Warm Catppuccin Latte variant with Flexoki Light paper and ink tones.",
+  "version": "1.0.0",
+  "publisher": "mikusr",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "catppuccin",
+    "latte",
+    "flexoki",
+    "light-theme",
+    "color-theme",
+    "warm-theme"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flexppuccin",
+        "uiTheme": "vs",
+        "path": "./themes/flexppuccin-color-theme.json"
+      },
+      {
+        "label": "Flexppuccin (No Italics)",
+        "uiTheme": "vs",
+        "path": "./themes/flexppuccin-no-italics-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "package": "vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@catppuccin/vscode": "^3.18.1"
+  }
+}

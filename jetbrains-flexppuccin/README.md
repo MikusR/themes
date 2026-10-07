@@ -23,7 +23,7 @@ Original Catppuccin Latte uses cool blue/slate undertones (`#eff1f5`, `#e6e9ef`,
 
 ## Quick Installation
 
-1. Build or re-package the plugin:
+1. Use the prebuilt `dist/Flexppuccin.jar` committed in this repo, or build/re-package the plugin:
    ```bash
    ./build-plugin.sh
    ```
