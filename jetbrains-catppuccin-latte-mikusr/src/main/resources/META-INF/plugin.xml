@@ -2,6 +2,7 @@
 <idea-plugin>
   <id>com.github.mikusr.catppuccin.latte.warm</id>
   <name>Catppuccin Latte Warm</name>
+  <version>1.0.0</version>
   <vendor url="https://github.com/mikusr">mikusr</vendor>
   <description><![CDATA[
 <h2>Warm Catppuccin Latte Theme for JetBrains IDEs</h2>
@@ -34,6 +35,7 @@ in place of the default cool blue slate.
   <li>Select <strong>Catppuccin Latte Warm</strong> or <strong>Catppuccin Latte Warm (no italics)</strong></li>
 </ul>
 ]]></description>
+  <idea-version since-build="231" until-build="262.*"/>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="com.github.mikusr.catppuccin.latte.warm" path="/themes/latte.theme.json"/>
