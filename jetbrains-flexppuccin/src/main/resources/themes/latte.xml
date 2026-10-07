@@ -1,4 +1,4 @@
-<scheme name="Catppuccin Latte Warm" version="142" parent_scheme="Default">
+<scheme name="Flexppuccin" version="142" parent_scheme="Default">
   <colors>
     <option name="ADDED_LINES_COLOR" value="40a02b"/>
     <option name="ANNOTATIONS_COLOR" value="100f0f"/>

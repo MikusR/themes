@@ -1,0 +1,52 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+  <id>com.github.mikusr.flexppuccin</id>
+  <name>Flexppuccin</name>
+  <version>1.0.0</version>
+  <vendor url="https://github.com/mikusr">mikusr</vendor>
+  <description><![CDATA[
+<h2>Flexppuccin: Warm Catppuccin Latte with Flexoki Paper Tones</h2>
+
+<p>
+An <strong>unofficial</strong> warm variant of the <a href="https://github.com/catppuccin/jetbrains">Catppuccin</a> Latte theme.
+The cool blue-slate backgrounds are replaced with the paper and ink tones of
+<a href="https://stephango.com/flexoki">Flexoki Light</a> by Steph Ango, while keeping Catppuccin's pastel syntax highlighting.
+</p>
+
+<p>
+<em>Not affiliated with or endorsed by the Catppuccin organization. Based on the MIT-licensed
+<a href="https://github.com/catppuccin/jetbrains">catppuccin/jetbrains</a> theme.</em>
+</p>
+
+<h3>Features</h3>
+<ul>
+  <li><strong>Warm Paper Backgrounds</strong>: Flexoki paper and neutral tones (#fffcf0, #f2f0e5, #e6e4d9) instead of cool blue-tinted grays.</li>
+  <li><strong>Deep Ink Typography</strong>: Near-black ink text (#100f0f) with strong contrast against the paper backgrounds.</li>
+  <li><strong>Catppuccin Accents</strong>: Pastel syntax highlights (Mauve, Peach, Teal, Green, Lavender, Yellow).</li>
+  <li><strong>Islands UI &amp; Standard UI Support</strong>: Includes both standard and Islands theme variants.</li>
+  <li><strong>Italics &amp; Non-Italics Options</strong>: Bundles both italicized and non-italicized editor color schemes.</li>
+</ul>
+
+<h3>Usage</h3>
+
+<h4>User Interface</h4>
+<ul>
+  <li>Head to <strong>Settings</strong> &rarr; <strong>Appearance &amp; Behavior</strong> &rarr; <strong>Appearance</strong></li>
+  <li>Select <strong>Flexppuccin</strong></li>
+</ul>
+
+<h4>Editor Color Scheme</h4>
+<ul>
+  <li>Head to <strong>Settings</strong> &rarr; <strong>Editor</strong> &rarr; <strong>Color Scheme</strong></li>
+  <li>Select <strong>Flexppuccin</strong> or <strong>Flexppuccin (no italics)</strong></li>
+</ul>
+]]></description>
+  <idea-version since-build="231" until-build="262.*"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.github.mikusr.flexppuccin" path="/themes/latte.theme.json"/>
+    <themeProvider id="com.github.mikusr.flexppuccin.islands" path="/themes/latte-islands.theme.json" targetUi="islands"/>
+    <bundledColorScheme id="com.github.mikusr.flexppuccin.italics" path="/themes/latte"/>
+    <bundledColorScheme id="com.github.mikusr.flexppuccin.no.italics" path="/themes/latte-no-italics"/>
+  </extensions>
+</idea-plugin>

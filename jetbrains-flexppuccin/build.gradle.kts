@@ -104,6 +104,10 @@ tasks {
         )
     }
 
+    jar {
+        from("LICENSE") { into("META-INF") }
+    }
+
     publishPlugin {
         dependsOn("patchChangelog")
     }

@@ -1,4 +1,4 @@
-# Catppuccin Latte Warm (Flexoki-inspired) for JetBrains
+# Flexppuccin for JetBrains
 
 A customized warm variant of the [Catppuccin Latte](https://github.com/catppuccin/jetbrains) theme for JetBrains IDEs (IntelliJ IDEA, WebStorm, PyCharm, CLion, GoLand, Android Studio, RustRover, etc.).
 
@@ -31,11 +31,11 @@ Original Catppuccin Latte uses cool blue/slate undertones (`#eff1f5`, `#e6e9ef`,
    - Open **Settings** (or **Preferences** on macOS)
    - Navigate to **Plugins**
    - Click the ⚙️ **Gear icon** at the top right and select **Install Plugin from Disk...**
-   - Choose `dist/Catppuccin-Latte-Warm.jar`
+   - Choose `dist/Flexppuccin.jar`
    - Restart the IDE if prompted.
 3. Activate the theme:
-   - **UI Theme**: **Settings → Appearance & Behavior → Appearance → Theme** → Select **Catppuccin Latte Warm**
-   - **Editor Syntax**: **Settings → Editor → Color Scheme** → Select **Catppuccin Latte Warm** (or non-italics variant)
+   - **UI Theme**: **Settings → Appearance & Behavior → Appearance → Theme** → Select **Flexppuccin**
+   - **Editor Syntax**: **Settings → Editor → Color Scheme** → Select **Flexppuccin** (or non-italics variant)
 
 ## Customizing Colors
 
@@ -43,3 +43,12 @@ Colors are configured in `palette.json`. You can modify any hex values and regen
 ```bash
 ./build-plugin.sh
 ```
+
+## License & Attribution
+
+This is an unofficial fork, not affiliated with or endorsed by the Catppuccin organization.
+
+- Based on [catppuccin/jetbrains](https://github.com/catppuccin/jetbrains) (MIT, © 2022 Catppuccin)
+- Background palette from [Flexoki](https://stephango.com/flexoki) by Steph Ango (MIT)
+
+Released under the [MIT License](./LICENSE).

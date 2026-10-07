@@ -4,8 +4,9 @@ dist/
 *.vsix
 node_modules/
 .gradle/
+.intellijPlatform/
 *.jar
-!gradle/wrapper/*.jar
+!**/gradle/wrapper/*.jar
 *.class
 
 # JetBrains / IDE files

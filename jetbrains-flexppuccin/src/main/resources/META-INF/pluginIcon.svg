@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <!-- Paper tile: Flexoki base / crust -->
+  <rect x="1" y="1" width="38" height="38" rx="9" fill="#fffcf0" stroke="#e6e4d9" stroke-width="1.5"/>
+  <!-- Steam: overlay1 -->
+  <g fill="none" stroke="#878580" stroke-width="1.6" stroke-linecap="round">
+    <path d="M15 11.5c-1.4-1.6 1.4-2.9 0-4.5"/>
+    <path d="M20 11.5c-1.4-1.6 1.4-2.9 0-4.5"/>
+  </g>
+  <!-- Mug handle + body: ink text color -->
+  <path d="M27.5 18.5h1.5a3.25 3.25 0 0 1 0 6.5h-1.9" fill="none" stroke="#100f0f" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M9.5 15h19.5v10.5a6 6 0 0 1-6 6h-7.5a6 6 0 0 1-6-6z" fill="#f2f0e5" stroke="#100f0f" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Code lines in Catppuccin Latte accents: mauve, peach, teal -->
+  <g stroke-width="2" stroke-linecap="round">
+    <path d="M13 19.5h6" stroke="#8839ef"/>
+    <path d="M21.5 19.5h3.5" stroke="#fe640b"/>
+    <path d="M15 23.5h8" stroke="#179299"/>
+    <path d="M13 27.5h4" stroke="#40a02b"/>
+  </g>
+</svg>
