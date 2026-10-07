@@ -20,6 +20,11 @@
     "warm-theme"
   ],
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikusR/themes.git",
+    "directory": "vscode-flexppuccin"
+  },
   "contributes": {
     "themes": [
       {
